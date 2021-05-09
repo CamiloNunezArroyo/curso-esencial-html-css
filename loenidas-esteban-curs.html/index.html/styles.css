@@ -1,0 +1,35 @@
+:root{
+    --gris: gray;
+}
+*{
+    color: #212121 ;
+}
+h1{
+    font-size: 60px;
+    width: 62vw;
+}
+p{
+    font-size: 48xp;
+}
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 24px;
+}
+header{
+    color: #616161;
+}
+header a {
+    text-decoration: none ;
+}
+.hero {
+    background-image:linear-gradient(to top, rgba(255, 255, 255, .2),transparent), url(/imagenes/patron-1.png);
+    height: 350px;
+}
+h1::after {
+    content: "-";
+}
+h1::before {
+    content: "-";
+}   
